@@ -183,9 +183,7 @@
     <output url="file://$GWT_ROOT$/eclipse/user/bin" />
     <exclude-output />
     <content url="file://$GWT_ROOT$/eclipse/user" />
-    <content url="file://$GWT_ROOT$/user/javadoc">
-      <sourceFolder url="file://$GWT_ROOT$/user/javadoc" isTestSource="false" />
-    </content>
+    <content url="file://$GWT_ROOT$/user/javadoc" />
     <content url="file://$GWT_ROOT$/user/src">
       <sourceFolder url="file://$GWT_ROOT$/user/src" isTestSource="false" />
       <excludeFolder url="file://$GWT_ROOT$/user/src/com/google/gwt/regexp/super" />
@@ -198,10 +196,10 @@
       <excludeFolder url="file://$GWT_ROOT$/user/test/com/google/gwt/dev/testdata/incrementalbuildsystem/super" />
     </content>
     <content url="file://$GWT_ROOT$/user/test_i18n_bar">
-      <sourceFolder url="file://$GWT_ROOT$/user/test_i18n_bar" isTestSource="false" />
+      <sourceFolder url="file://$GWT_ROOT$/user/test_i18n_bar" isTestSource="true" />
     </content>
     <content url="file://$GWT_ROOT$/user/test_i18n_dollar">
-      <sourceFolder url="file://$GWT_ROOT$/user/test_i18n_dollar" isTestSource="false" />
+      <sourceFolder url="file://$GWT_ROOT$/user/test_i18n_dollar" isTestSource="true" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
